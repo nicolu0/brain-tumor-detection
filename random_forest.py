@@ -40,7 +40,7 @@ def plot_confusion_matrix(cm, class_names):
     )
     plt.xlabel("Predicted")
     plt.ylabel("True Label")
-    plt.title("Confusion Matrix")
+    plt.title("Confusion Matrix of RF")
     plt.savefig("confusion_matrix_rf.jpg", format="jpg")
     plt.show()
 

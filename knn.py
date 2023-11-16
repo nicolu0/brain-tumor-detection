@@ -40,7 +40,7 @@ def plot_confusion_matrix(cm, class_names):
     )
     plt.xlabel("Predicted")
     plt.ylabel("True Label")
-    plt.title("Confusion Matrix")
+    plt.title("Confusion Matrix of KNN")
     plt.savefig("confusion_matrix_knn.jpg", format="jpg")
     plt.show()
 
